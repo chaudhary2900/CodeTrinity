@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">MyOwnStay</string>
+    <string name="action_settings">Settings</string>
+    <string name="your_string_here">
+        <u>click here</u> to Get OTP Again
+    </string>
+      <string name="pan_info">
+        <B>PAN Card</B> PDF/PNG/JPG accepted
+    </string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Chat Messenger</string>
+    <string name="nav_item_profile">Edit Profile</string>
+    <string name="nav_item_concern">Raise a Concern</string>
+    <string name="nav_item_incident">Report an Incident</string>
+    <string name="nav_item_food">Food Management</string>
+    <string name="nav_item_request_call">Request a Call</string>
+    <string name="nav_item_feedback">Give Feedback</string>
+    <string name="nav_item_rating">Rating/Reviews</string>
+    <string name="nav_item_payment">Make a Payment</string>
+    <string name="nav_item_sign_out">Sign Out</string>
+    <string name="nav_item_more_options">More Options</string>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_profile</item>
+        <item>@string/nav_item_concern</item>
+        <item>@string/nav_item_incident</item>
+        <item>@string/nav_item_food</item>
+        <item>@string/nav_item_request_call</item>
+        <item>@string/nav_item_feedback</item>
+        <item>@string/nav_item_rating</item>
+        <item>@string/nav_item_payment</item>
+        <item>@string/nav_item_sign_out</item>
+        <item>@string/nav_item_more_options</item>
+
+
+
+
+
+    </string-array>
+
+
+    <string name="title_home">Home</string>
+    <string name="title_friends">Chat Messenger</string>
+    <string name="title_messages">Edit Profile</string>
+    <string name="title_concern">Raise a Concern</string>
+    <string name="title_incident">Report an Incident</string>
+    <string name="title_management">Food Management</string>
+    <string name="title_request">Request a Call</string>
+    <string name="title_feedback">Give Feedback</string>
+    <string name="title_rating">Rating/Review</string>
+    <string name="title_payment">Make Payment</string>
+    <string name="title_sign">Sign Out</string>
+    <string name="title_options">More Options</string>
+</resources>

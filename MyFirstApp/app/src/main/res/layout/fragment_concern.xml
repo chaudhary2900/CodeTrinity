@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#e8e8e7"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+
+            <ImageView android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/logo1"
+                android:layout_marginLeft="10dp"/>
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MyOwnStay"
+                android:textColor="#F9972B"
+                android:layout_marginLeft="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <!--<ImageView android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/select"-->
+
+                <!--/>-->
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/greybackground"
+            >
+
+            <!--<ImageView android:layout_width="60dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:background="@drawable/plan"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_gravity="center_horizontal"/>-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raise a Concern"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="#F9972B"
+                android:layout_gravity="center"
+                />
+         <Spinner
+             android:id="@+id/spinner1"
+             android:layout_width="wrap_content"
+             android:background="@drawable/image_i"
+             android:layout_marginTop="20dp"
+             android:layout_height="wrap_content">
+
+
+
+         </Spinner>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Remarks"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="#F9972B"
+                />
+
+            <EditText android:layout_width="250dp"
+                android:layout_height="200dp"
+ android:layout_gravity="center"
+
+            android:background="@drawable/textinputborder"
+                android:layout_marginTop="1dp"/>
+
+
+
+
+
+
+
+
+
+
+
+            <Button android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="submit"
+                android:textColor="#fff"
+                android:background="@drawable/butn"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

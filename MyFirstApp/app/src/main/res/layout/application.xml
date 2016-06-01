@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Your Account"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+android:layout_marginLeft="30dp"
+android:background="@drawable/butn"
+android:layout_marginTop="40dp"
+        android:text="User"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+
+        android:background="@drawable/butn"
+        android:text="PG Owner"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/_fragment_1"
+        android:name="com.example.ayush.myapplication.MessageListViewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_weight="0.35" />
+
+
+
+    <FrameLayout
+        android:id="@+id/_fragment_2"
+        android:name="com.example.ayush.myapplication.SendMessageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_weight="0.35" />
+
+</LinearLayout>
